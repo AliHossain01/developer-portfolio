@@ -7,12 +7,17 @@ h1 {
     font-size: 50px;
 }
 
+h1 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: orange;
 }
 
-section {
+.flexible {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -21,7 +26,7 @@ section {
 }
 
 .half-width img {
-    width: 100%;
+    width: 80%;
 }
 
 .hire-me {
@@ -36,4 +41,42 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.big-dream {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 20%;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    padding-left: 20px;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#baby {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+#full {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(0, 255, 136), tomato);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
